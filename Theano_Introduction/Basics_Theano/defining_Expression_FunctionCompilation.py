@@ -36,3 +36,7 @@ b_val = np.ones(2)
 print b_val
 
 print f(x_val, W_val)
+
+pydotprint(f, compact=False, outfile='pydotprint_f_notcompact.png')
+
+
